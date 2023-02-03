@@ -16,6 +16,7 @@ public class Author {
     public String getAuthorSurname() {
         return this.authorSurname;
     }
+    @Override
     public String toString() {
         return "Автор книги: " + this.authorName + " " + this.authorSurname;
     }
